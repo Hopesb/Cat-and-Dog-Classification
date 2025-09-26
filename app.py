@@ -115,6 +115,10 @@ else:
 # ==============================
 st.markdown("---")
 st.markdown(
+    "**Philip Code Academy**"
+)
+st.markdown("---")
+st.markdown(
     "🔬 **About this project:** Built with [Streamlit](https://streamlit.io/) and PyTorch. "
     "Model is based on a pre-trained ResNet50 CNN for image classification tasks."
 )
