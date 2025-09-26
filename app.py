@@ -20,14 +20,19 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("🐱🐶 Cat vs Dog Image Classifier")
+st.title("🐱🐶 Cat vs Dog Image Classifier | Philip Code Academy")
+st.markdown("**Final Project – June Data Science Cohort 2025**")
+
 st.markdown(
     """
     ### Welcome!
-    This web application uses a deep learning model to classify images as either a **Cat** or a **Dog**.
+    This web application was built by **Philip Code Academy** as the **final project** for our **June 2025 Data Science Cohort** 🎓.
+
+    It uses a deep learning model to classify images as either a **Cat** or a **Dog**.
     Upload an image below and let the model do the magic ✨.
     """
 )
+
 
 model_path = "resnet.pth"
 # ==============================
@@ -115,10 +120,10 @@ else:
 # ==============================
 st.markdown("---")
 st.markdown(
-    "**Philip Code Academy**"
+    """
+    🔬 **About this project:**  
+    Developed by **Philip Code Academy** as part of the **June 2025 Data Science Cohort**.  
+    Built with [Streamlit](https://streamlit.io/) and [PyTorch](https://pytorch.org/), leveraging a fine-tuned **ResNet50 CNN** for image classification.
+    """
 )
-st.markdown("---")
-st.markdown(
-    "🔬 **About this project:** Built with [Streamlit](https://streamlit.io/) and PyTorch. "
-    "Model is based on a pre-trained ResNet50 CNN for image classification tasks."
-)
+
